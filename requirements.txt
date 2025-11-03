@@ -1,0 +1,4 @@
+kivy
+plyer
+pyttsx3
+sqlite-utils

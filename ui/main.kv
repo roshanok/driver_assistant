@@ -1,0 +1,10 @@
+BoxLayout:
+    orientation: 'vertical'
+    Label:
+        id: speed_label
+        text: "Speed: 0 km/h"
+        font_size: '30sp'
+    Button:
+        text: "Start GPS"
+        size_hint_y: 0.2
+        on_press: app.start_gps()
